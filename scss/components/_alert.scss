@@ -1,0 +1,25 @@
+.alert-banner {
+    display: flex;
+    flex-direction: row;
+    background-color: #7c75c7;
+    width: 95%;
+    margin-left: 1rem;
+    border-radius: .3rem;
+    color: #FFF;
+    justify-items: right;
+    text-align: center;
+    margin-right: 0;
+}
+
+.alert-banner p:first-child {
+    padding-left: 1rem;
+}
+
+.alert-banner-close {
+    font-size: 1.5rem;
+    margin: .3rem .2rem 1rem auto;
+}
+
+.alert-banner-close:hover {
+    cursor: pointer;
+}

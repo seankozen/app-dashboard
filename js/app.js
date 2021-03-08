@@ -40,7 +40,7 @@ const userList = [
     'Rosa Parks',
     'James Earl Jones',
     'Joe Montana'
-]
+];
 
 /************************************/
 /******* Modal for Alert Icon *******/
@@ -59,7 +59,8 @@ bellDiv.innerHTML =
             <p>You have 6 new email messages.</p>
         </div>
     </div>
-    `
+    `;
+
 const bellAlert = document.querySelector(".bell-alert-modal"); //Access modal 
 const bellContent = document.getElementsByClassName("bell-alert-content"); //Access modal content divs
 const bellClose = document.getElementsByClassName("bell-alert-close");  //Access close span
@@ -92,7 +93,7 @@ window.onclick = function(event) {
     if (event.target == bellAlert) {
         bellAlert.style.display = "none";
     }
-}
+};
 
 
 /*****************************/
@@ -105,7 +106,7 @@ alertBanner.innerHTML =
             <p><strong>Alert:</strong> You have <strong>6</strong> overdue tasks to complete</p>
             <p class="alert-banner-close">x<p/>
     </div>   
-    `
+    `;
 
     alertBanner.addEventListener('click', e => {
         const element = e.target;
@@ -222,8 +223,8 @@ autoComplete(searchBar, userList);
 /*****************************/
 
 function checkFields() {
-    let userField = document.forms["message"]["user"].value;
-    let messageField = document.forms["message"]["messageField"].value;
+    let userField = document.forms.message.user.value;
+    let messageField = document.forms.message.messageField.value;
 
     if (userField == "" || userField == null) {
         alert("Please enter a user's name.");

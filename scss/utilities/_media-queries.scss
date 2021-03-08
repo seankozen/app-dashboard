@@ -1,4 +1,9 @@
 @media (min-width: 768px) and (max-width: 1023px)  {
+    
+    .header h3 {
+    padding-right: .5rem;
+    }
+    
     .grid-container {
         grid-template-columns: 55px 1fr;
         grid-template-areas: 
@@ -75,18 +80,8 @@
     .switch-light.switch-ios strong {
         flex-basis: 250px;
     }
-
-
-
-
-
-
-
-
    
 }
-
-
 
 
 .main {
@@ -94,10 +89,12 @@
 }
 
 
-
-
-
 @media (min-width: 1024px)  {
+
+    .header h3 {
+        padding-right: .5rem;
+    }
+
     .grid-container {
         grid-template-columns: 60px 1fr;
         grid-template-areas: 
@@ -253,20 +250,6 @@
     .switch-light.switch-ios strong {
         flex-basis: 200px;
     }
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
 }
 
 

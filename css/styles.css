@@ -668,7 +668,7 @@ label.switch-light.switch-ios {
 
 .button-save,
 .button-disabled {
-  width: 6rem;
+  width: 12rem;
   height: 2rem;
   border-radius: .3rem;
 }
@@ -937,24 +937,16 @@ div.search {
 
 .bell-alert-modal {
   display: none;
-  /* Hidden by default */
   position: fixed;
-  /* Stay in place */
   padding-top: 4rem;
   z-index: 1;
-  /* Sit on top */
   left: 0;
   top: 0;
   width: 100%;
-  /* Full width */
   height: 100%;
-  /* Full height */
   overflow: auto;
-  /* Enable scroll if needed */
   background-color: black;
-  /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */
   font-size: 1rem;
 }
 
@@ -969,7 +961,6 @@ div.search {
   border: 3px solid #7c75c7;
   border-radius: 5px;
   width: 80%;
-  /* Could be more or less, depending on screen size */
 }
 
 .bell-alert-content p {
@@ -996,6 +987,9 @@ div.search {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .header h3 {
+    padding-right: .5rem;
+  }
   .grid-container {
     grid-template-columns: 55px 1fr;
     grid-template-areas: "header header" "navigation main";
@@ -1062,6 +1056,9 @@ div.search {
 }
 
 @media (min-width: 1024px) {
+  .header h3 {
+    padding-right: .5rem;
+  }
   .grid-container {
     grid-template-columns: 60px 1fr;
     grid-template-areas: "header header" "navigation main";

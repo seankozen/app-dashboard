@@ -17,9 +17,12 @@
 
 .alert-banner-close {
     font-size: 1.5rem;
-    margin: .3rem .2rem 1rem auto;
+    margin: 0 0 0 auto;
+    padding-right: .3rem;
+    align-self: center;
 }
 
 .alert-banner-close:hover {
     cursor: pointer;
+    
 }

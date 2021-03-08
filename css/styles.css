@@ -387,7 +387,7 @@ nav a object {
 .main-header-search {
   display: flex;
   padding-top: .6rem;
-  padding-right: .5rem;
+  padding-right: .3rem;
   border-radius: 0 0 0 10px;
   background-color: #fcfafaf7;
   margin-left: auto;
@@ -397,7 +397,7 @@ nav a object {
 .main-header-search input {
   height: 1.6rem;
   display: inline-block;
-  max-width: 50%;
+  min-width: 40%;
   font-size: .8rem;
   margin-left: auto;
 }
@@ -431,8 +431,6 @@ nav a object {
 .social-stats {
   border-top: 2px solid lightgray;
   padding-bottom: 0;
-  padding-left: 1rem;
-  padding-right: 1rem;
   margin-top: 2rem;
 }
 
@@ -496,8 +494,6 @@ div.social-text > p:nth-of-type(2) {
 .recent-activity {
   display: flex;
   flex-direction: column;
-  padding-left: 1rem;
-  padding-right: 1rem;
   border-top: 2px solid lightgray;
   margin-top: 2rem;
 }
@@ -544,8 +540,10 @@ div.member-text > p:first-child {
 .member-container > p {
   font-size: .7rem;
   margin-right: .3rem;
-  margin: auto .5rem auto auto;
+  margin-right: 0;
+  padding-right: .3rem;
   color: #5e5e5e;
+  align-self: center;
 }
 
 /******************************/
@@ -566,7 +564,9 @@ div.activity-text > p:first-child {
 .activity-container > span {
   font-size: 1rem;
   margin-right: .3rem;
-  margin: auto .5rem auto auto;
+  align-self: center;
+  margin-right: 0;
+  padding-right: .3rem;
   color: #2a63f5;
 }
 
@@ -580,8 +580,6 @@ div.activity-text > p:first-child {
 .message {
   margin: 1rem 0 1rem 0;
   border-top: 2px solid lightgray;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 form {
@@ -630,8 +628,6 @@ textarea {
 /******************************/
 .settings {
   margin: 1rem 0 1rem 0;
-  padding-left: .5rem;
-  padding-right: .5rem;
   justify-items: center;
   border-top: 2px solid lightgray;
 }
@@ -726,7 +722,7 @@ header {
 }
 
 .header h3 {
-  padding-right: .5rem;
+  align-self: center;
 }
 
 .bell-box {
@@ -810,8 +806,8 @@ li:focus,
 /******************************/
 .traffic {
   padding-bottom: 2rem;
-  padding-left: .3rem;
-  padding-right: .3rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
 }
 
 /******************************/
@@ -848,7 +844,9 @@ li:focus,
 
 .alert-banner-close {
   font-size: 1.5rem;
-  margin: .3rem .2rem 1rem auto;
+  margin: 0 0 0 auto;
+  padding-right: .3rem;
+  align-self: center;
 }
 
 .alert-banner-close:hover {

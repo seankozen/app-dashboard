@@ -91,41 +91,6 @@ window.onclick = function(event) {
         bellAlert.style.display = "none";
     }
 }
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*****************************/

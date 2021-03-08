@@ -378,8 +378,8 @@ nav a object {
 }
 
 .headline {
-  padding-left: .6rem;
-  padding-right: .6rem;
+  margin: 0;
+  padding: 1.5rem .6rem;
   font-size: 1.3rem;
   color: #5e5e5e;
 }
@@ -397,7 +397,7 @@ nav a object {
 .main-header-search input {
   height: 1.6rem;
   display: inline-block;
-  min-width: 50%;
+  max-width: 50%;
   font-size: .8rem;
   margin-left: auto;
 }
@@ -809,7 +809,9 @@ li:focus,
 /*********** Traffic **********/
 /******************************/
 .traffic {
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  padding-left: .3rem;
+  padding-right: .3rem;
 }
 
 /******************************/

@@ -668,7 +668,7 @@ label.switch-light.switch-ios {
 
 .button-save,
 .button-disabled {
-  width: 12rem;
+  width: 6rem;
   height: 2rem;
   border-radius: .3rem;
 }
@@ -1049,6 +1049,10 @@ div.search {
   .switch-light.switch-ios strong {
     flex-basis: 250px;
   }
+  .button-save,
+  .button-disabled {
+    width: 12rem;
+  }
 }
 
 .main {
@@ -1182,6 +1186,10 @@ div.search {
   }
   .switch-light.switch-ios strong {
     flex-basis: 200px;
+  }
+  .button-save,
+  .button-disabled {
+    width: 12rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */

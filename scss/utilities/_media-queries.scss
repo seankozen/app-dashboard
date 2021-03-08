@@ -81,6 +81,10 @@
         flex-basis: 250px;
     }
    
+    .button-save,
+    .button-disabled {
+        width: 12rem;   
+    }
 }
 
 
@@ -250,6 +254,12 @@
     .switch-light.switch-ios strong {
         flex-basis: 200px;
     }
+
+    .button-save,
+    .button-disabled {
+        width: 12rem;   
+    }
+
 }
 
 

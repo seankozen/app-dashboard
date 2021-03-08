@@ -13,6 +13,8 @@ const bellIcon = document.querySelector('.bell-icon');  //Access bell icon
 const bellNotification = document.getElementById('notifications'); //Access bell notifications dot
 const bellDiv = document.getElementById('bell-alert'); //Access div alerts are in
 
+const sendButton = document.getElementById('send');    //Access send button
+
 /*****************************/
 /******* App User List *******/
 /*****************************/
@@ -214,6 +216,26 @@ function autoComplete (input, array) {
 }
 
 autoComplete(searchBar, userList);
+
+/*****************************/
+/** Messaging Error Message **/
+/*****************************/
+
+function checkFields() {
+    let userField = document.forms["message"]["user"].value;
+    let messageField = document.forms["message"]["messageField"].value;
+
+    if (userField == "" || userField == null) {
+        alert("Please enter a user's name.");
+    }
+    if (messageField == "" || messageField == null) {
+        alert("Please enter a message to the user.");
+    }
+}
+
+sendButton.addEventListener('click', e =>{
+    checkFields();
+});
 
 
 /*****************************/

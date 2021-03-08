@@ -370,10 +370,10 @@ nav a object {
 .main-header-box {
   display: flex;
   flex-direction: column;
+  width: auto;
 }
 
 .main-header {
-  width: 100%;
   display: flex;
 }
 
@@ -833,13 +833,13 @@ li:focus,
   display: flex;
   flex-direction: row;
   background-color: #7c75c7;
-  width: 95%;
-  margin-left: 1rem;
+  width: 90%;
   border-radius: .3rem;
   color: #FFF;
   justify-items: right;
   text-align: center;
-  margin-right: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .alert-banner p:first-child {

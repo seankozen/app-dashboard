@@ -1,2 +1,3 @@
 # techdegree-project-7
- app dashboard
+Mobile first approach app dashboard utilizing chart.js
+Uses local storage to save settings.
